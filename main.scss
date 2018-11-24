@@ -1,0 +1,781 @@
+/* -------------------
+   BASE CSS
+   ------------------- */
+
+#menu-button{
+  width: 50px;
+  border-radius: 5px;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+  transition: all linear .3s;
+  padding: 4px;
+  z-index: 1;
+}
+
+#menu-button.active{
+  
+}
+#line-1,#line-2,#line-3{
+  width: 70%;
+  background: #ba893f;
+  height: 2px;
+  margin: 4px auto;
+  border-radius: 2px;
+  transition: all linear .3s;
+}
+
+#line-1.active{
+-webkit-transform: translate(0px,6px) rotate(45deg);
+transform: translate(0px,6px) rotate(45deg);
+}
+
+#line-2.active{
+opacity: 0;
+}
+
+#line-3.active{
+-webkit-transform: translate(0px, -6px) rotate(-45deg);
+transform: translate(0px, -6px) rotate(-45deg);
+}
+
+#menu{
+  width: 100%;
+  height: 100%;
+  font-family: arial;
+  font-size: 1.5rem;
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#menu ul{
+  margin-top: 120px;
+  list-style: none;
+}
+
+#menu ul li{
+  margin: 8px 0;
+  color: #ba893f;
+}
+
+/* -------------------
+   CUSTOM CSS
+   ------------------- */
+
+ * {
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ h1 {
+   color: #344152;
+ }
+
+
+#white-house-logo {
+  position: relative;
+  top: -25px;
+  left: 160px;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+#search-icon {
+  position: relative;
+  top: -50px;
+  left: 340px;
+  font-style: bold;
+}
+
+#main-pic-img {
+  position: relative;
+  top: -30px;
+  right: 35px;
+}
+
+#read-more-1 {
+  position: relative;
+  left: 27px;
+}
+
+#seven-americans-container {
+  margin-top: 20px;
+}
+
+#seven-americans-img {
+  margin-left: 1%;
+}
+
+#seven-americans-text {
+  margin-top: 30px;
+  margin-left: 21%;
+  margin-right: 16%;
+  text-align: center;
+  font-size: 28px;
+  color: #323232;
+}
+
+#turkey-pardon-img {
+  margin-top: 30px;
+  margin-left: 7%;
+}
+
+#turkey-pardon-text {
+  margin-top: 20px;
+  margin-left: 21%;
+  margin-right: 15%;
+  text-align: center;
+  font-size: 28px;
+  color: #323232;
+}
+
+#main-pic-container {
+  margin-top: 70px;
+}
+
+
+#main-pic-text-1 {
+  margin-top: 20px;
+  margin-left: 8%;
+  font-size: 28px;
+}
+
+#main-pic-text-2 {
+  font-size: 14px;
+  margin-left: 45%;
+
+}
+
+#main-pic-text-3 {
+  margin-left: 8%;
+  margin-top: 50px;
+}
+
+#president-pic {
+  margin-top: 30px;
+  margin-left: 7%;
+}
+
+#president-pic-text {
+  margin-top: 20px;
+  margin-left: 21%;
+  margin-right: 15%;
+  text-align: center;
+  font-size: 28px;
+  color: #323232;
+}
+
+#white-house-history-container {
+  margin-top: 50px;
+}
+
+#white-house-history-container-text-1 {
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#white-house-history-container-text-2 {
+  margin-top: 20px;
+  margin-left: 9%;
+  margin-right: 5%;
+}
+
+.red-dash-1 {
+  position: relative;
+  top: 53px;
+  left: 100px;
+  width: 20px;
+  height: 2px;
+  background: red;
+}
+
+.red-dash-2 {
+  position: relative;
+  top: 12px;
+  left: 13px;
+  width: 20px;
+  height: 2px;
+  background: red;
+}
+
+.red-dash-3 {
+  position: relative;
+  top: 12px;
+  left: 50px;
+  width: 20px;
+  height: 2px;
+  background: red;
+}
+
+#ol-new-white-house {
+  width: 75%;
+  margin-top: 5%;
+  margin-left: 15%
+}
+
+#black-white-house-container {
+  margin-top: 50px;
+  height: 270px;
+}
+
+#upper-footer {
+  background: linear-gradient(to right,#333b45 0%,#344051 100%);;
+}
+
+#white-house-logo-footer {
+  margin-top: 15%;
+  margin-left: 30%;
+}
+
+#white-house-logo-footer-text {
+  margin-top: 30px;
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+}
+
+.checked {
+    color: #ba893f;
+    padding-right: 15px;
+}
+
+#stars-container {
+  margin-top: 20px;
+  margin-left: 38%;
+}
+
+#left-line {
+  width: 70px;
+  height: 2px;
+  background: grey;
+  position: relative;
+  top: 7.3%;
+  left: 13%;
+}
+
+#right-line {
+  position: relative;
+  left: 66%;
+  top: -2.3%;
+  width: 70px;
+  height: 2px;
+  background: grey;
+}
+
+#footer-nav-ul {
+  margin-top: 30px;
+  margin-left: -45px;
+  list-style: none;
+}
+
+#footer-nav-ul li {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#lower-footer {
+  height: 80px;
+  background: #27313f;
+}
+
+#lower-footer ul {
+  margin-left: 14%;
+  margin-top: 30px;
+  list-style: none;
+}
+
+#lower-footer ul li {
+  padding-right: 25px;
+  display: inline-block;
+}
+
+
+@media (max-width: 768px) {  
+  #desktop-nav {
+    display: none;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+
+  #menu-button{
+  position: relative;
+  top: 20px;
+  left: 23px;
+} 
+  #white-house-logo {
+    width: 80px;
+    margin-left: 16%;
+  }
+
+  #search-icon { 
+  margin-left: 32%
+  }
+
+  
+  #main-pic-text-1 {
+    margin-top: 30px;
+    font-size: 22px;
+    margin-left: 19%;
+    margin-right: 15%;
+  }
+
+  #main-pic-text-3 {
+    margin-left: 19%;
+    margin-right: 15%;
+  }
+
+  #read-more-1 {
+    position: relative;
+    left: 95px;
+  }
+
+  #seven-americans-img {
+   margin-left: 1.5%;
+  }
+
+  #turkey-pardon-img {
+    margin-left: 19%;
+  }
+
+  #turkey-pardon-text {
+    margin-top: 30px;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+
+  #president-pic {
+   margin-left: 19%;
+  }
+
+  #president-pic-text {
+    margin-top: 30px;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+
+  .red-dash-1 {
+    position: relative;
+    left: 180px;
+  }
+
+  .red-dash-2 {
+    position: relative;
+    left: 90px;
+  }
+
+  .red-dash-3 {
+    position: relative;
+    left: 130px;
+  }
+
+  #ol-new-white-house {
+    margin-left: 15%;
+  }
+
+  #white-house-logo-footer {
+    margin-left: 39%;
+  }
+
+  #left-line {
+    position: relative;
+    left: 30%;
+    top: 7%;
+  }
+
+  #stars-container {
+    margin-left: 44%;
+  }
+
+  #right-line {
+    position: relative;
+    left: 60%;
+  }
+
+  #lower-footer ul {
+    margin-left: 26%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  #white-house-logo {
+    position: relative;
+    left: -20px;
+  }
+
+  #desktop-nav {
+    position: relative;
+    top: -50px;
+  }
+
+  #desktop-nav ul {
+    list-style: none;
+    margin-left: 27%;
+  }
+
+  #desktop-nav ul li {
+    font-size: 10px;
+    display: inline;
+    padding-right: 10px;
+    color: #344152;
+    font-weight: bold; 
+  }
+
+  #search-icon {
+    position: relative;
+    top: -90px;
+    margin-left: 49%;
+  }
+
+  #main-pic-text-2 {
+    position: relative;
+    left: 50px;
+  }
+
+  #read-more-1 {
+    position: relative;
+    left: 128px;
+  }
+
+  #seven-americans-img {
+    margin-top: 25px;
+    height: 215px;
+  }
+
+  #seven-americans-text {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  #turkey-pardon-img-container {
+    margin-left: -30px;
+  }
+
+  #turkey-pardon-text {
+    position: relative;
+    left: 60px;
+    font-size: 20px;
+    margin-left: 5%;
+  }
+
+  #president-pic-text {
+    position: relative;
+    left: 60px;
+    font-size: 20px;
+    margin-left: 5%;
+  }
+
+  #white-house-history-container {
+    margin-top: 100px;
+  }
+
+  .red-dash-1 {
+    position: relative;
+    left: 270px;
+  }
+
+  .red-dash-2 {
+    position: relative;
+    left: 180px;
+  }
+
+  .red-dash-3 {
+    position: relative;
+    left: 220px;
+  }
+
+  #black-white-house-container {
+    height: 380px;
+  }
+
+  #white-house-logo-footer {
+    margin-left: 42%;
+  }
+
+  #white-house-logo-footer-text {
+    position: relative;
+    left: 10px;
+  }
+
+  #stars-container {
+    position: relative;
+    left: 10px;
+  }
+
+  #left-line {
+    position: relative;
+    left: 35%;
+    top: 6.3%;
+  }
+
+  #right-line {
+    position: relative;
+    left: 57%;
+  }
+
+  #footer-nav-ul {
+  position: relative;
+  left:10px;
+  }
+
+  #lower-footer ul {
+    margin-left: 33%;
+  }
+
+  .fix-top {
+    margin-top: 40px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  #white-house-logo {
+    position: relative;
+    left: -50px;
+  }
+
+  #desktop-nav ul {
+    position: relative;
+    left: -30px;
+  }
+
+  #desktop-nav ul li {
+    font-size: 14px;
+  }
+
+  #search-icon {
+    position: relative;
+    left: 450px;
+  }
+
+  #read-more-1 {
+    position: relative;
+    left: 175px;
+  }
+
+  #seven-americans-img {
+    height: 292px;
+  }
+
+  #turkey-pardon-img-container {
+    margin-left: -60px;
+  }
+
+  #turkey-pardon-text {
+    position: relative;
+    left: 80px;
+  }
+
+  #president-pic-text {
+    position: relative;
+    left: 90px;
+  }
+
+  .red-dash-1 {
+    position: relative;
+    left: 390px;
+  }
+
+  .red-dash-2 {
+    position: relative;
+    left: 300px;
+  }
+
+  .red-dash-3 {
+    position: relative;
+    left: 340px;
+  }
+
+  #black-white-house-container {
+    height: 500px;
+  }
+
+  #white-house-logo-footer {
+    position: relative;
+    left: 30px;
+  }
+
+  #white-house-logo-footer-text {
+    position: relative;
+    left: 30px;
+  }
+
+  #left-line {
+    position: relative;
+    left: 40%;
+    top: 6.1%;
+  }
+
+  #stars-container {
+    position: relative;
+    left: 40px;
+  }
+
+  #right-line {
+    position: relative;
+    left: 57%;
+    top: -2%;
+  }
+
+  #footer-nav-ul {
+    position: relative;
+    left: 25px;
+  }
+
+  #lower-footer ul {
+    position: relative;
+    left: 60px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  
+    #menu-button {
+      position: relative;
+      left: 53px;
+    }
+
+    #white-house-logo {
+      position: relative;
+      left: 0px;
+    }
+
+    #desktop-nav {
+      
+    }
+
+    #desktop-nav ul li {
+      padding-right: 50px;
+    }
+
+    #search-icon {
+      position: relative;
+      left: 580px;
+    }
+
+    #main-pic-text-2 {
+      margin-top: 20px;
+      position: relative;
+      left: 200px;
+    }
+
+    #read-more-1 {
+      position: relative;
+      left: 210px;
+      top: -5px;
+    }
+
+    #turkey-pardon-text {
+      position: relative;
+      left: 24%;
+    }
+
+    #seven-americans-img {
+      height: 318px;
+    }
+
+    #president-pic-text {
+      position: relative;
+      left: 24%;
+    }
+
+    .red-dash-1 {
+      position: relative;
+      left: 480px;
+    }
+
+     .red-dash-2 {
+      position: relative;
+      left: 390px;
+    }
+
+     .red-dash-3 {
+      position: relative;
+      left: 430px;
+    }
+
+    #black-white-house-container {
+      height: 700px;
+    }
+
+    #white-house-logo-footer {
+      position: relative;
+      left: 20px;
+    }
+
+    #white-house-logo-footer-text {
+      position: relative;
+      left: -10px;
+    }
+
+    #left-line {
+      position: relative;
+      left: 40%;
+      top: 6%;
+    }
+    #stars-container {
+      position: relative;
+      left: 30px;
+    }
+
+    #right-line {
+      position: relative;
+      left: 40%;
+      left: 54%;
+    }
+
+    #footer-nav-ul {
+      position: relative;
+      left: -1px;
+    }
+
+    #lower-footer ul {
+      position: relative;
+      left: 70px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {  
+    #white-house-logo-footer {
+      position: relative;
+      left: 3.6%;
+    }
+
+    #white-house-logo-footer-text {
+      position: relative;
+      left: 0.2%;
+    }
+
+    #stars-container {
+      position: relative;
+      left: 3.3%;
+    }
+
+    #left-line {
+      position: relative;
+      left: 42%;
+      top: 5.2%;
+    }
+
+    #right-line {
+      position: relative;
+      left: 53.5%;
+      top: -2%;
+    }
+
+    #lower-footer ul {
+      position: relative;
+      left: 8.5%;
+    }
+}
+ 
+
+
